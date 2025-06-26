@@ -26,7 +26,7 @@ const ContactForm = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-white rounded-2xl p-8 shadow-lg max-h-[900px] overflow-y-auto"
+              className="bg-white rounded-2xl p-8 shadow-lg max-h-[1000px] overflow-y-auto"
             >
               <h2 className="text-xl font-bold text-gray-900 mb-8 text-primary">Đội ngũ chuyên gia Hino Systech Việt Nam luôn tận tâm phục vụ quý doanh nghiệp</h2>
               <div className="space-y-8">
@@ -86,7 +86,7 @@ const ContactForm = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
-            className="bg-white rounded-2xl p-8 shadow-lg max-h-[900px] overflow-y-auto"
+            className="bg-white rounded-2xl p-8 shadow-lg max-h-[1000px] overflow-y-auto"
           >
             <h2 className="text-xl font-bold text-gray-900 mb-8 text-primary">Điền thông tin bên dưới để nhận tư vấn từ chuyên gia hoặc nhận tải checlist hạng mục triển khai</h2>
             <div className='wrapper-form' ref={formWrapperRef}/>
