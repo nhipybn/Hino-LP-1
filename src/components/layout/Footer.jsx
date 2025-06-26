@@ -51,8 +51,20 @@ const Footer = () => {
                 Thứ 2 - Thứ 6: 8:00 - 17:30<br />
                 Thứ 7: 8:00 - 12:00
               </li>
+              <li>
+  <strong>Hino Systech</strong>{' '}
+  <a
+    href="https://hino-systechvn.com/"
+    className="underline text-yellow-300 hover:text-yellow-500"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Hino Systech Việt Nam
+  </a>
+</li>
             </ul>
           </div>
+          
 
           {/* Services */}
           <div>
