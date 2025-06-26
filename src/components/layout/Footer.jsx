@@ -7,7 +7,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <img src="/img/logo1.png" alt="Logo" className="h-14 w-auto" />
+              <img src="/logo1.png" alt="Logo" className="h-14 w-auto" />
             </div>
             <p className="text-white text-sm leading-relaxed">
               Nhà tích hợp hệ thống hàng đầu các giải pháp tự động hóa quy trình (PA) và tự động hóa nhà máy (FA).
