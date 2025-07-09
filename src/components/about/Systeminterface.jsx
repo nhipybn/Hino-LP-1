@@ -37,11 +37,11 @@ const Systeminterface = () => {
                             />
                             {/* Tooltip */}
                             <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-black text-white text-xs rounded px-3 py-1 opacity-0 group-hover:opacity-100 transition-opacity z-10 whitespace-nowrap shadow-md">
-                                Quản lý dữ liệu từ hệ thống trung tâm
+                                Giao hiện của Hino Gateway 378
                             </div>
                         </div>
                         <p className="text-center text-sm text-gray-700 mt-6">
-                            Giao diện quản lý dữ liệu từ hệ thống trung tâm
+                            Giao hiện của Hino Gateway 378
                         </p>
                     </div>
                 </div>
