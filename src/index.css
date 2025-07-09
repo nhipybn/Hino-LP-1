@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #0047b9;
+    --secondary: #0369A1;
+    --accent: #FCD34D;
+  }
+  
+  body {
+    @apply text-gray-800 bg-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+  @apply px-6 py-3 text-white font-semibold rounded-lg 
+         transition-colors duration-300
+         focus:outline-none focus:ring-2 focus:ring-offset-2;
+
+  background-color: #00c472;
+  --tw-ring-color: #00c472;
+}
+
+.btn-primary:hover {
+  background-color: #00a75e;
+}
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6;
+  }
+}
+
+#_bownow_iframe_sid_07367521342b1a0ad879 {
+  height: 600px !important;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
