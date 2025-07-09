@@ -22,7 +22,7 @@ const Systeminterface = () => {
                                 Giao diện EVNICT kết nối lấy dữ liệu trực tiếp từ Hino Gateway
                             </div>
                         </div>
-                        <p className="text-center text-sm text-gray-700 mt-6">
+                        <p className="text-center text-base text-gray-700 mt-6">
                             Giao diện EVNICT kết nối lấy dữ liệu trực tiếp từ Hino Gateway
                         </p>
                     </div>
@@ -40,7 +40,7 @@ const Systeminterface = () => {
                                 Giao hiện của Hino Gateway 378
                             </div>
                         </div>
-                        <p className="text-center text-sm text-gray-700 mt-6">
+                        <p className="text-center text-base text-gray-700 mt-6">
                             Giao hiện của Hino Gateway 378
                         </p>
                     </div>
