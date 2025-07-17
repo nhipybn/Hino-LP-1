@@ -29,7 +29,7 @@ export default function ProjectOverviewSection() {
             </div>
 
             <div className="mt-6 bg-[#F0F8FF] border-l-4 border-[#3399FF] p-5 rounded-xl shadow-sm">
-              <p className="text-sm italic text-[#005599]">Ông Mr.Chuyên - Quản lý dự án</p>
+              <p className="text-sm italic text-[#005599]">Mr.Chuyên - Quản lý dự án</p>
               <p className="mt-2 text-gray-700 font-medium leading-relaxed">
                 "Hino Gateway 378 là giải pháp triển khai khá nhanh chóng, giúp hệ thống của chúng tôi
                 đáp ứng hoàn toàn các yêu cầu kỹ thuật chỉ trong 3 tuần, từ bước kiểm tra nhà máy cho
