@@ -34,7 +34,7 @@ Cung cấp thiết bị và phần mềm tích hợp đáp ứng theo Quyết đ
   </a>
 
   <a
-    href="tel:0123456789" // thay số hotline của bạn
+    href="tel:0387419012" // thay số hotline của bạn
     className="flex items-center gap-2 bg-red-500 text-white px-5 py-2 rounded-lg shadow-lg hover:bg-red-600 transition duration-300"
   >
     <svg
