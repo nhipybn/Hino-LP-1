@@ -9,6 +9,7 @@ import SystemDiagram from './components/about/SystemDiagram';
 import Systeminterface from './components/about/Systeminterface';
 import ServiceCTA from './components/services/ServiceCTA';
 import Casestudyjul7 from './components/projects/Casestudyjul7';
+import CasestudyOct from './components/projects/CasestudyOct';
 import FeaturedProjects from './components/projects/FeaturedProjects';
 import ContactForm from './components/contact/ContactForm';
 import FAQ from './components/services/FAQ';
@@ -29,6 +30,7 @@ function App() {
         <SystemDiagram/>
         <Systeminterface  />
         <Casestudyjul7 />
+        <CasestudyOct />
         <FeaturedProjects />
         <Zalo/>
         <ServiceCTA />
