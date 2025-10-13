@@ -13,7 +13,7 @@ const projects = [
     images: [
       "/img/duan1(hino1).jpg",
       "/img/duan2(Hino).jpg",
-      "/img/hino3(duan).jpg",
+     
     ],
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     capacity: "0.9 MWp",
     status: "Đã kết nối thành công lên RMCS",
     images: [
-       "/img/duancuoi.jpg",
+
       "/img/hino3(2).jpg",
       "/img/duan1(hino).jpg",
     ],
@@ -33,7 +33,7 @@ const projects = [
     capacity: "450 kWp",
     status: "Đang kết nối RMCS",
     images: [
-      "/img/tudien3.jpg",
+
       "/img/ketnoitudien3.jpg",
       "/img/duan3.jpg",
     ],
