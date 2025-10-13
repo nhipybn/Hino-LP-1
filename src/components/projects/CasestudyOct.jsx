@@ -38,11 +38,25 @@ const projects = [
       "/img/duan3.jpg",
     ],
   },
+   {
+    name: "Điện mặt trời công ty sản xuất TMVN",
+    location: "Ninh Bình",
+    capacity: "1375kWp",
+    status: "Đã kết nối thành công lên RMCS",
+    images: [
+      
+      "./img/Team378.jpg",
+       "./img/tu1.png", 
+       "./img/tu2.png", 
+       "./img/tu4.png",
+        "./img/manhinh.jpg"
+    ],
+  },
 ];
 
 export default function CaseStudySection() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 to-blue-100 py-16 px-6 md:px-16">
+    <section className="bg-gradient-to-b from-blue-50 to-blue-100 py-4 px-6 md:px-16">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-3">
           Dự án tiêu biểu
@@ -52,7 +66,7 @@ export default function CaseStudySection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         {projects.map((p, i) => (
           <div
             key={i}
@@ -64,7 +78,7 @@ export default function CaseStudySection() {
               autoplay={{ delay: 3000, disableOnInteraction: false }}
               pagination={{ clickable: true }}
               loop
-              className="h-80 w-full"
+              className="h-60 w-full"
             >
               {p.images.map((img, idx) => (
                 <SwiperSlide key={idx}>
